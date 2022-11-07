@@ -1,0 +1,92 @@
+@import "../../scss/_helpers";
+footer{
+    background-color: $primary-color;
+   padding:5rem 0;
+}
+.footer-text{
+    
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    color:$grey-200;
+    padding: 1.5rem 0;
+}
+.footer-subtitle{
+    font-size: 1.8rem;
+    font-family:  $primary-font;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.2rem;
+    color: $white;
+}
+/* .input-mail{
+    padding-left:2.5rem;
+  
+    
+} */
+.footer-form .newsletter-input{
+    width:75%;
+    border: none;
+    outline: none;
+    background-color: $medium-blue;
+   color:$white;
+   font-size:1.5rem;
+
+}
+.footer-form{
+    padding: 0.6rem;
+    //height:4.8rem ;
+    background-color: $medium-blue;
+    border-radius:0.5rem;
+   /*  text-align:center;
+    width:fit-content; */
+}
+.white-mailbox{
+    height: 2rem;
+    width: 3rem;
+}
+ .footer-icons{
+   background-color: $white;
+   
+   @include icon-styles;
+} 
+.footer-social-icons {
+    background-color: $medium-blue;
+    margin-left:0.8rem;
+    @include icon-styles;
+ }
+ .copyright-section{
+     margin-top:4.1rem;
+ }
+
+.footer-icon-text{
+    
+    font-size: 1.2rem;
+    font-weight: 400;
+    color:$grey-200;
+    
+ 
+}
+.contact-details{
+    font-size: 1.6rem;
+    @include homepagelinks;
+}
+.home-details a{
+    font-size: 1.4rem;
+    margin-right:4rem;
+    @include homepagelinks;
+   
+}
+p.home-details{
+    font-size: 1.4rem;
+    @include homepagelinks;
+}
+.icons-box{
+    margin-top:3.2rem;
+}
+.skittbop-section{
+    height:457px;
+}
+.skitty-info{
+    margin-right:56px;
+}

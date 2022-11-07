@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+// @font-face {
+//   font-family: $primary-font;
+//   src: url("#{$font-path}/gilroy/Gilroy-Thin.ttf"),
+//     url("#{$font-path}/gilroy/Gilroy-Thin.woff"),
+//     url("#{$font-path}/gilroy/Gilroy-Thin.woff2"),
+//     url("#{$font-path}/gilroy/Gilroy-Thin.svg"),
+//     url("#{$font-path}/gilroy/Gilroy-Thin.eot");
+//   font-weight: 100;
+//   font-style: normal;
+//   font-display: swap;
+// }
+// @font-face {
+//   font-family: $primary-font;
+//   src: url("#{$font-path}/gilroy/Gilroy-UltraLight.ttf"),
+//     url("#{$font-path}/gilroy/Gilroy-UltraLight.woff"),
+//     url("#{$font-path}/gilroy/Gilroy-UltraLight.woff2"),
+//     url("#{$font-path}/gilroy/Gilroy-UltraLight.svg"),
+//     url("#{$font-path}/gilroy/Gilroy-UltraLight.eot");
+//   font-weight: 100;
+//   font-style: normal;
+//   font-display: swap;
+// }
+// @font-face {
+//   font-family: $primary-font;
+//   src: url("#{$font-path}/gilroy/Gilroy-Light.ttf"),
+//     url("#{$font-path}/gilroy/Gilroy-Light.woff"),
+//     url("#{$font-path}/gilroy/Gilroy-Light.woff2"),
+//     url("#{$font-path}/gilroy/Gilroy-Light.svg"),
+//     url("#{$font-path}/gilroy/Gilroy-Light.eot");
+//   font-weight: 100;
+//   font-style: normal;
+//   font-display: swap;
+// }
+@font-face {
+  font-family: $primary-font;
+  src: url("#{$font-path}/gilroy/Gilroy-Regular.ttf"),
+    url("#{$font-path}/gilroy/Gilroy-Regular.woff"),
+    url("#{$font-path}/gilroy/Gilroy-Regular.woff2"),
+    url("#{$font-path}/gilroy/Gilroy-Regular.svg"),
+    url("#{$font-path}/gilroy/Gilroy-Regular.eot");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: $primary-font;
+  src: url("#{$font-path}/gilroy/Gilroy-Medium.ttf"),
+    url("#{$font-path}/gilroy/Gilroy-Medium.woff"),
+    url("#{$font-path}/gilroy/Gilroy-Medium.woff2"),
+    url("#{$font-path}/gilroy/Gilroy-Medium.svg"),
+    url("#{$font-path}/gilroy/Gilroy-Medium.eot");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: $primary-font;
+  src: url("#{$font-path}/gilroy/Gilroy-SemiBold.ttf"),
+    url("#{$font-path}/gilroy/Gilroy-SemiBold.woff"),
+    url("#{$font-path}/gilroy/Gilroy-SemiBold.woff2"),
+    url("#{$font-path}/gilroy/Gilroy-SemiBold.svg"),
+    url("#{$font-path}/gilroy/Gilroy-SemiBold.eot");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: $primary-font;
+  src: url("#{$font-path}/gilroy/Gilroy-Bold.ttf"),
+    url("#{$font-path}/gilroy/Gilroy-Bold.woff"),
+    url("#{$font-path}/gilroy/Gilroy-Bold.woff2"),
+    url("#{$font-path}/gilroy/Gilroy-Bold.svg"),
+    url("#{$font-path}/gilroy/Gilroy-Bold.eot");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+// @font-face {
+//   font-family: $primary-font;
+//   src: url("#{$font-path}/gilroy/Gilroy-ExtraBold.ttf"),
+//     url("#{$font-path}/gilroy/Gilroy-ExtraBold.woff"),
+//     url("#{$font-path}/gilroy/Gilroy-ExtraBold.woff2"),
+//     url("#{$font-path}/gilroy/Gilroy-ExtraBold.svg"),
+//     url("#{$font-path}/gilroy/Gilroy-ExtraBold.eot");
+//   font-weight: 100;
+//   font-style: normal;
+//   font-display: swap;
+// }
+// @font-face {
+//   font-family: $primary-font;
+//   src: url("#{$font-path}/gilroy/Gilroy-Black.ttf"),
+//     url("#{$font-path}/gilroy/Gilroy-Black.woff"),
+//     url("#{$font-path}/gilroy/Gilroy-Black.woff2"),
+//     url("#{$font-path}/gilroy/Gilroy-Black.svg"),
+//     url("#{$font-path}/gilroy/Gilroy-Black.eot");
+//   font-weight: 100;
+//   font-style: normal;
+//   font-display: swap;
+// }
+// @font-face {
+//   font-family: $primary-font;
+//   src: url("#{$font-path}/gilroy/Gilroy-Heavy.ttf"),
+//     url("#{$font-path}/gilroy/Gilroy-Heavy.woff"),
+//     url("#{$font-path}/gilroy/Gilroy-Heavy.woff2"),
+//     url("#{$font-path}/gilroy/Gilroy-Heavy.svg"),
+//     url("#{$font-path}/gilroy/Gilroy-Heavy.eot");
+//   font-weight: 100;
+//   font-style: normal;
+//   font-display: swap;
+// }

@@ -1,0 +1,58 @@
+@import "../../scss/_helpers";
+.feature-section{
+    margin-bottom:14.8rem;
+    
+    
+    .features{
+        @include fontproperty;
+
+    }
+    .features-mainheading{
+        @include headingstyles;
+        
+        }
+        .features-descrption{
+            @include description;
+            
+            opacity: 0.7;
+            line-height: 2.6rem;
+        }
+}
+
+
+
+.card{
+    padding:3.4rem 2rem 3.3rem 3.4rem;
+    margin-bottom:3rem;
+    margin-right:1.5rem;
+    background: $white;
+    box-shadow: 0px 0.4rem 6.4rem rgba(185, 185, 185, 0.25);
+    border-radius: 0.5rem;
+    .image-card{
+        height:4.5rem;
+        width:4.5rem;
+        padding:1rem;
+    }
+    .card-img-top{
+        
+        height:2.5rem;
+        width:2.5rem;
+    }
+    .card-title{
+        font-size: 2rem;
+        line-height: 24px;
+        text-transform: uppercase;
+        color: #1A3447;
+        font-weight: 700;
+    }
+    .card-text{
+        font-weight: 400;
+        font-size: 1.4rem;
+        line-height: 2.2rem;
+        letter-spacing: 0.5px;
+        color: $dark-blue;
+        opacity: 0.7;
+    }
+
+}
+

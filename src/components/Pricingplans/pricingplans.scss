@@ -1,0 +1,34 @@
+@import "../../scss/_helpers";
+.price-heading{
+        font-weight: 600;
+        font-size: 4rem;
+        line-height: 6rem;
+        color: $white;
+        margin-bottom:3.1rem;
+        //margin-right:14.6rem;
+        max-width:58rem;
+}
+.pricebg{
+  position: absolute;
+  bottom:14%;
+  right:0;
+}
+.pricing-section{
+    //background-image: url("./images.pricebg.png");
+    padding:9.1rem 15.6rem 7.7rem 13rem;
+    background-color: $dark-black;
+    border-radius:0.5rem;
+    position:relative;
+    top:0;
+    left:0;
+    
+}
+.pricesection-women{
+  position: absolute;
+ bottom: -1.3rem;
+  right: 15.6rem;
+  height:47.9rem;
+ 
+    
+    
+}

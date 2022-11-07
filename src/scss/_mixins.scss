@@ -1,0 +1,30 @@
+@mixin icon-styles{
+    width: 3.8rem;
+   height:3.8rem;
+   
+   border-radius: 3rem;
+   padding:1rem;
+}
+@mixin homepagelinks{
+    text-decoration: none;
+    font-family: $primary-font;
+  
+    font-weight: 500;
+    color:$grey-200;
+}
+@mixin fontproperty {
+    color:$violet;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 17px;
+}
+@mixin headingstyles {
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: $dark-violet;
+    
+}
+@mixin description{
+    font-size: 1.6rem;
+    color: $dark-blue;
+}

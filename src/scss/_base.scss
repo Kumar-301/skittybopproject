@@ -1,0 +1,15 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: $primary-font;
+}
+
+.container {
+  max-width: 144rem;
+}
+hr{
+ 
+  border:1px solid $grey-200;
+}

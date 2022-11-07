@@ -1,0 +1,108 @@
+@import "../../scss/_helpers";
+.connected-images{
+    height:5rem;
+    width:5rem;
+}
+ul{
+    padding-left:0;
+}
+li{
+    list-style-type: none;
+   
+}
+.getcards-section{
+    position: relative;
+    top:0;
+    bottom:0;
+}
+.getconnectcards h3{
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    color: $dark-violet;
+
+}
+.connect-button{
+    padding:1.2rem 4.5rem;
+    margin-top:2.8rem;
+}
+.getconnectcards p{
+    font-size: 1.2rem
+}
+.getconnectcards a{
+    font-size: 1.8rem;
+    text-decoration:none;
+}
+.getconnectcards{
+    padding:3rem 9.8rem 3.6rem 3.4rem;
+    position: relative;
+    max-width: 34.2rem;
+    border-radius: 2.2rem;
+    top:0;
+    bottom:0;
+
+}
+.getconnectpart{
+    margin-bottom:13.7rem;
+    margin-top: 10rem;
+}
+.james-image{
+    height:100px;
+    width:100px;
+}
+.james-title{
+    margin-top:2.2rem;
+    font-weight: 700;
+    font-size: 20px;
+    
+    color: $dark-violet;
+}
+.connectcard{
+    padding:2.6rem 9.1rem 3.5rem 9.1rem;
+    //width: 37rem;
+    position: absolute;
+    border-radius: 2.2rem;
+    top:43%;
+    right:2%;
+    
+}
+.rightmark{
+    position: absolute;
+    height:8rem;
+    width:8rem;
+    top:-4rem;
+    right:-4rem;
+}
+.getconnect-content{
+    max-width:49rem;
+    padding-left:4.4rem;
+}
+.aboutus{
+    
+    @include fontproperty;
+}
+.getconnect-content{
+    .connect-description{
+        margin-bottom:3rem;
+    }
+    ul{
+        margin-top:3rem;
+    }
+}
+li{
+    .connect-check{
+        height:2.4rem;
+        width:2.4rem;
+    }
+    .connect-info{
+        font-weight: 500;
+        font-size: 1.8rem;
+        color: $grey-700;
+    }
+}
+.connect-mainheading{
+    @include headingstyles;
+}
+.connect-description{
+    @include description;
+}
