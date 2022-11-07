@@ -86,7 +86,14 @@
     background: $primary-color;
   }
 }
+.accordion-header span{
+  font-family: $primary-font;
+  font-weight: 600;
+  font-size: 2.2rem;
+  color: $blue-2;
+}
 .accordion-body {
+
   font-size: 1.8rem;
   color: $light-purple;
   line-height: 3rem;

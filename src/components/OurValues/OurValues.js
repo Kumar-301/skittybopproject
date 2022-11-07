@@ -16,7 +16,7 @@ export default function OurValues() {
             <OurValuesImg />
           </Col>
           <Col md="6" className="value-right-container">
-          <Heading4 className="features" heading4Title="OUR FEATURES"/>
+          <Heading4 className="features" heading4Title="OUR VALUES"/>
           <Heading1 className="features-mainheading" heading4Title="The Value we Instill in our Product" />
           
             <OurValuesAccordion />
